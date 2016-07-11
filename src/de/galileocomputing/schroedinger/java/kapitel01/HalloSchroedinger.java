@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class HalloSchroedinger {
 
+	private static Scanner scanner;
+
 	public static void main(String[] args) throws IOException {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Wie heißt du? ");
+		scanner = new Scanner(System.in);
+		System.out.println("Wie heiï¿½t du? ");
 		System.out.print("Name: ");
 		String name = scanner.nextLine();
 		System.out.println("Hallo " + name);
